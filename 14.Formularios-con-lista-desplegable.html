@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rellena tu CV</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label for="provincia">Provincia:</label>
+
+            <select id="provincia" name="provincia">
+                <option value="">- selecciona -</option>
+                <option value="valencia">Valencia</option>
+                <option value="alicante">Alicante</option>
+                <option value="castellon">Castellón</option>
+            </select>
+
+            <br><br>
+
+            <label>Fecha de nacimiento</label><br>
+            <input type="text" name="dia" size="3">
+
+            de
+
+            <select name="mes">
+                <option value="">- mes -</option>
+                <option value="enero">Enero</option>
+                <option value="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+                <option value="abril">Abril</option>
+                <option value="mayo">Mayo</option>
+                <option value="junio">Junio</option>
+                <option value="julio">Julio</option>
+                <option value="agosto">Agosto</option>
+                <option value="septiembre">Septiembre</option>
+                <option value="octubre">Octubre</option>
+                <option value="noviembre">Noviembre</option>
+                <option value="diciembre">Diciembre</option>
+            </select>
+
+            de
+
+            <input type="text" name="año" size="4">
+
+            <br><br>
+
+            <label for="temas">Temas de intrés</label><br>
+
+            <select id="temas" name="temas" size="5">
+                <option value="base_datos">Base de Datos</option>
+                <option value="programacion">Analisis y Programación</option>
+                <option value="arquitectura">Arquitectura</option>
+                <option value="calidad">Calidad</option>
+                <option value="erp">ERP, CRM, Business Intelligence</option>
+            </select>
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
