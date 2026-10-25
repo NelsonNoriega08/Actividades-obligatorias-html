@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información sobre el producto</title>
+</head>
+<body>
+    <h1>Información sobre el producto</h1>
+
+    <form>
+        <fieldset>
+            <legend>Datos del producto</legend>
+
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" size="40"><br><br>
+
+            <label for="descripcion">Descripción:</label><br>
+            <textarea id="descripcion" name="descripcion" rows="5" cols="50"></textarea><br><br>
+
+            <label for="foto">Foto</label>
+            <input type="file" id="foto" name="foto" accept="image/*"><br>
+
+            <br>
+
+            <input type="checkbox" id="contador" name="contador">
+            <label for="contador">Añadir contador de visitas</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Datos economicos</legend>
+
+            Precio
+            <input type="text" id="precio" name="precio" size="5">€
+
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="impuestos">Impuestos</label>
+
+            <select id="impuestos" name="impuestos">
+                <option value="4" selected>4%</option>
+                <option value="7">7%</option>
+                <option value="16">16%</option>
+                <option value="25">25%</option>
+            </select>
+
+            <br><br>
+
+            Promoción<br>
+
+            <input type="radio" id="ninguno" name="promocion" value="ninguno" checked>
+            <label for="ninguno">Ninguno</label>
+            <br>
+
+            <input type="radio" id="transporte" name="promocion" value="transporte">
+            <label for="transporte">Transporte gratuito</label>
+            <br>
+
+            <input type="radio" id="descuento" name="promocion" value="descuento">
+            <label for="descuento">Descuento 5%</label>
+
+        </fieldset>
+    </form>
+</body>
+</html>
