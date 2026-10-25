@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rellena tu CV</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form>
+        <label for="Nombre">Nombre:</label><br>
+        <input type="text" id="Nombre" name="Nombre"><br>
+
+        <label for="Apellido">Apellido:</label><br>
+        <input type="text" id="Apellido" name="Apellido" size="40"><br>
+
+        <label for="Contraseña">Contraseña:</label><br>
+        <input type="password" id="Contraseña" name="Contraseña"><br>
+
+        <label for="DNI">DNI:</label><br>
+        <input type="text" id="DNI" name="DNI" size="10"><br>
+
+        <label>Sexo:</label><br>
+
+        <input type="radio" id="Hombre" name="Sexo" value="Hombre">
+        <label for="Hombre">Hombre</label>
+        <br>
+        
+        <input type="radio" id="Mujer" name="Sexo" value="Mujer">
+        <label for="Mujer">Mujer</label>
+        <br>
+
+        <br>
+        <label for="foto">Incluir mi foto:</label>
+        <input type="file" id="foto" name="foto" accept="image/*">
+        <br>
+
+        <br>
+        <input type="checkbox" id="boletin" name="boletin" checked>
+        <label for="boletin">Deseo recibir el boletín informativo</label><br>
+
+        <br>
+        <input type="submit" value="Guardar cambios">
+        <input type="reset" value="Borrar los datos introducidos">
+        
+    </form>
+</body>
+</html>
